@@ -1,0 +1,170 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-nav ul li a {
+  color: white; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Sección Hero */
+.section-hero {
+  background: url('gym.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.section-aboutus {
+  display: flex;
+  padding: 100px 0;
+  background-color: black; 
+}
+
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutus-left {
+  flex: 1;
+  padding-right: 20px;
+  color: white;
+}
+
+.aboutus-left h2 {
+  font-size: 2em; 
+}
+
+.aboutus-left p {
+  font-size: 1.2em; 
+}
+
+.aboutus-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-box__image img {
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
+.section-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-color: black; 
+}
+
+.contactus .title {
+  color: white; 
+}
+
+.contactus form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: white; 
+}
+
+.class-input {
+  margin-bottom: 20px;
+}
+
+.contactus button {
+  background-color: #ffeb3b;
+  color: #444;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contactus button:hover {
+  background-color: #444;
+}
+
+.section-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-company-address,
+.contact-social-links img {
+  margin-bottom: 0 5px;
+}
+
+.contact-details {
+  text-align: center;
+}
+
+hr {
+  border: none; 
+  height: 0.5px; 
+  background-color: #ccc; 
+  margin: 1px 0; 
+}
+
+.copyrights {
+  display: flex; 
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+[data-aos] {
+  transition: all 0.5s ease;
+}

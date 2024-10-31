@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FULL GYM</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imagen/favicon.png" />
+    <link rel="stylesheet" href="main.css" media="screen" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <ul class="logo">FULL GYM</ul>
+            <nav class="header-nav" aria-label="navegación">
+                <ul style="text-align: right">
+                    <li><a href="#aboutus" class="about-us-link">Sobre Nosotros</a></li>
+                    <li><a href="#contact" class="subscribe-button">Suscríbete</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+      
+        <section class="section-hero" id="section-hero">
+            <div class="hero-content">
+                <h1 class="heading">TU ESPACIO COMPLETO PARA EL FITNESS</h1>
+                <p class="description">Disfruta de Nado, Yoga, Pilates, Pesas, CrossFit y Spinning en un Solo Lugar</p>
+            </div>
+        </section>
+        
+        <section class="section-aboutus" id="aboutus">
+            <div class="container aboutus">
+                <div class="aboutus-left" data-aos="fade-down">
+                    <h2>Nuestros Objetivos</h2>
+                    <p>Nuestro objetivo es ofrecerte todas las herramientas y actividades que necesitas para mantenerte activo y saludable, todo bajo un mismo techo.</p>
+                    <p>Disfruta de un ambiente motivador y comunitario, donde cada miembro se apoya mutuamente.</p>
+                </div>
+                <div class="aboutus-right">
+                    <figure class="about-box__image">
+                        <img src="gym2.jpg" alt="gimnasio" width="320" height="190" data-aos="fade-down-right" />
+                        <img src="gym3.jpg" alt="gimnasio" width="320" height="190" data-aos="fade-down" />
+                        <img src="gym5.jpg" alt="gimnasio" width="320" height="190" data-aos="fade-down-left" />
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-contact" id="contact">
+            <div class="container contact">
+                <div class="contactus">
+                    <form>
+                        <h2 class="title">SUSCRÍBETE</h2>
+                        <div class="class-input">Nombre: <input type="text" /></div>
+                        <div class="class-input">Correo: <input type="email" /></div>
+                        <div class="class-input">Teléfono: <input type="number" /></div>
+                        <button>ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr />
+    <footer class="section-footer" id="footer">
+        <div class="footer-box container">
+            <div class="contact-details">
+                <h2>FULL GYM</h2>
+                <div class="contact-company-address">
+                   <br /> Guayaquil <br /> ECUADOR
+                </div>
+                <div class="contact-social-links">
+                 <img src="image/facebook.svg" alt="Facebook" width="35" height="35" />
+                 <img src="image/instagram.svg" alt="Instagram" width="35" height="35" />
+                 <img src="image/twitter.svg" alt="Twitter" width="35" height="35" />
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container copyrights">
+            <div>Derechos de Autor 2024</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            delay: 50,
+            duration: 400,
+            once: true,
+        });
+    </script>
+</body>
+</html>
+
